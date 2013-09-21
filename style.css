@@ -3,15 +3,15 @@
 a{
   color:#000;
   text-decoration: none;
-  padding:3px;
+  
 }
 
 a:hover{
-  background:#d4d4d4;
+  background:#dddddd;
 }
 
 .site-title{
-  font-family: 'Lato', arial, sans-serif;
+  font-family: 'Lato', helvetica, arial, sans-serif;
   text-transform: uppercase;
   letter-spacing:5px;
   text-decoration: none;
@@ -26,10 +26,92 @@ a:hover{
   display:none;
 }
 
+/*Footer*/
 .main-footer{
   border-top:1.5px dashed #d4d4d4;
-  padding-top:16px;
+  padding-top:20px;
   text-transform: uppercase;
+  clear: both;
+  margin-top: 20px;
 }
 
+.section-label{
+	font-family: Helvetica, arial, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 11px; 
+	color: #505050;
+	}
+	
+.info{
+	margin-top: 10px;
+}	
+	
+.info li{
+	list-style: none;
+	font-family: 'Lato', Helvetica, arial, sans-serif;
+	font-size: 12px;
+	letter-spacing: 5px;
+	line-height: 24px;
+	
+}
 
+.social{
+	list-style: none;
+	margin-top: 20px;
+}
+
+.social li{
+	display: inline-block;
+}
+
+.social li a{
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-right: 20px;
+	background-color: fuchsia;
+	text-indent: -999em;
+}
+
+/*Home*/
+
+.home-portfolio{
+display:none;
+}
+
+.home-portfolio .portfolio-thumb{
+	display: block;
+	background: none;
+	margin-top: 20px;
+}
+
+.home-projects{
+	margin-bottom: 20px;
+	border-top:1.5px dashed #d4d4d4;
+	margin-top: 20px;
+	padding-top: 20px;	
+}
+
+.home-projects .home-project-elements{
+	float: left;
+	width: 250px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.home-projects .projects-thumb {
+	background-color: red;
+	display:block;
+	width: 250px;
+	height: 111px;
+}
+
+.project-title{
+	display: inline-block;
+	font-family: Helvetica, Arial, Sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	
+}
