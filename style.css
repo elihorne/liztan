@@ -1,0 +1,35 @@
+/*Global Styles*/
+
+a{
+  color:#000;
+  text-decoration: none;
+  padding:3px;
+}
+
+a:hover{
+  background:#d4d4d4;
+}
+
+.site-title{
+  font-family: 'Lato', arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing:5px;
+  text-decoration: none;
+  color:#000;
+}
+
+.wrap{
+  margin:30px;
+}
+
+.navigation{
+  display:none;
+}
+
+.main-footer{
+  border-top:1.5px dashed #d4d4d4;
+  padding-top:16px;
+  text-transform: uppercase;
+}
+
+

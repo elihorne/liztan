@@ -22,8 +22,13 @@
 
   </head>
   <body>
-
-    <div ng-view></div>
-
+    <div class="wrap">
+      <header class="main-header">
+        <a class="site-title" href="/">Liz Tan</a>
+        <div class="navigation" ng-include="'/views/navigation.html'"></div>
+      </header>
+      <div ng-view></div>
+      <footer class="main-footer" ng-include="'/views/footer.html'"></footer>
+    </div>
   </body>
 </html>
