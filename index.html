@@ -1,24 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr" ng-app="noodles">
   <head>
-
-    <title>smidgen</title>
+    
+    <title>Liz Tan</title>
+    
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta name="description" content="Work by Liz Tan, a New York based graphic designer.">
 
     <!-- css -->
-    <link rel="stylesheet" href="reset.css"/>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- fonts -->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
 
     <!-- js -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script src="function.js"></script>
 
   </head>
   <body>
 
-    <h1>smidgen</h1>
+    <div ng-view></div>
 
   </body>
-  <script>
-    init();
-  </script>
 </html>
